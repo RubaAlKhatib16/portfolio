@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " Description="portfolio Ruba Alkhatib"
+        keyword="developer">
+   <title>Ruba Alkhati​b | Full Stack Developer Portfolio</title>
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header class="header shadow-sm">
+        <nav class="navbar navbar-expand-lg bg-white py-3">
+            <div class="container">
+
+                <!-- LEFT MENU  -->
+                <ul class="navbar-nav d-none d-lg-flex gap-4">
+                    <li class="nav-item"><a href="#about" class="nav-link text-purple">ABOUT</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link text-purple">EDUCATION</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link text-purple">PROJECTS</a></li>
+                </ul>
+
+                <!-- CENTER LOGO -->
+                <a class="navbar-brand mx-auto d-lg-none d-flex flex-column text-center" href="#">
+                    <span class="logo-title">RUBA ALKHATIB</span>
+                    <span class="logo-sub">FULL STACK DEVELOPER</span>
+                </a>
+
+                <div class="logo-center d-none d-lg-block text-center">
+                    <h1 class="logo-title">RUBA ALKHATIB</h1>
+                    <p class="logo-sub">FULL STACK DEVELOPER</p>
+                </div>
+
+                <!-- RIGHT MENU  -->
+                <ul class="navbar-nav d-none d-lg-flex gap-4 ms-auto">
+                    <li class="nav-item"><a href="#experience" class="nav-link text-purple">EXPERIENCE</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link text-purple">SERVICES</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-purple">CONTACT</a></li>
+                </ul>
+
+                <!-- TOGGLER -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mobileMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </div>
+        </nav>
+
+        <!-- MOBILE MENU DROPDOWN -->
+        <div class="collapse navbar-collapse mobile-menu bg-white" id="mobileMenu">
+            <ul class="navbar-nav text-center py-3">
+                <li class="nav-item"><a class="nav-link text-purple" href="#about">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link text-purple" href="#education">EDUCATION</a></li>
+                <li class="nav-item"><a class="nav-link text-purple" href="#projects">PROJECTS</a></li>
+                <li class="nav-item"><a class="nav-link text-purple" href="#experience">EXPERIENCE</a></li>
+                <li class="nav-item"><a class="nav-link text-purple" href="#services">SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link text-purple" href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        <div class="floating-element floating-3"></div>
+
+        <div class="hero-left">
+            <p class="welcome"><i class="fas fa-star"></i> WELCOME TO MY WORLD</p>
+            <h1>Hi, I'm <span>Ruba Alkhatib</span></h1>
+            <h2>Full Stack Developer</h2>
+            <p class="desc">
+                Passionate about building immersive, modern and meaningful digital experiences
+                with a blend of creativity, design and powerful clean code.
+            </p>
+
+            <div class="tech-stack">
+                <span class="tech-item">Bootstrap</span>
+                <span class="tech-item">JavaScript</span>
+                <span class="tech-item">PHP</span>
+                <span class="tech-item">UI/UX Design</span>
+                <span class="tech-item">Responsive Design</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary"><i class="fas fa-code"></i> My Projects</a>
+                <a href="Ruba Alkhatib (CV).pdf" target="_blank" class="btn-outline">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+
+                <a href="https://github.com/RubaAlKhatib16" target="_blank" class="github-circle">
+                    <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="frame-3d">
+                <img src="hero.jpg" alt="Ruba Alkhatib - Full Stack Developer">
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="scroll-text">SCROLL DOWN</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!--===================ABOUT SECTION ==========-->
+    <section id="about" class="about-section">
+        <div class="about-container">
+
+            <!-- LEFT IMAGE -->
+            <div class="about-img-wrapper">
+                <img src="About.jpg" alt="Ruba Alkhatib">
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="about-content">
+                <p class="section-label">ABOUT ME</p>
+                <h2 class="about-title">Who I Am</h2>
+
+                <p class="about-text">
+                    I’m Ruba Alkhatib — a passionate Full Stack Developer who loves
+                    building clean, modern, and meaningful digital experiences.
+                    I enjoy transforming ideas into intuitive, visually pleasing,
+                    and user-friendly products using creativity, logic, and design skills.
+                </p>
+
+                <div class="about-buttons">
+                    <a href="Ruba Alkhatib (CV).pdf" target="_blank" class="btn-outline">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+
+
+                    <a href="#contact" class="btn-outline">Hire Me</a>
+                </div>
+
+                <!-- JOURNEY -->
+                <div class="my-journey">
+                    <h3>My Journey</h3>
+                    <div class="journey-items">
+
+                        <div class="journey-box">
+                            <i class="fas fa-briefcase"></i>
+                            <p><strong>3+ Years</strong> Experience</p>
+                        </div>
+
+                        <div class="journey-box">
+                            <i class="fas fa-check-circle"></i>
+                            <p><strong>10+ Projects</strong> Completed</p>
+                        </div>
+
+                        <div class="journey-box">
+                            <i class="fas fa-laptop-code"></i>
+                            <p><strong>Full Stack</strong> Developer</p>
+                        </div>
+
+                        <div class="journey-box">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <p><strong>UI/UX</strong> Skills</p>
+                        </div>
+
+                        <div class="journey-box">
+                            <i class="fas fa-user-check"></i>
+                            <p><strong>Freelance</strong> Available</p>
+                        </div>
+
+                        <div class="journey-box">
+                            <i class="fas fa-headset"></i>
+                            <p><strong>Support</strong> 24/7</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- INTERESTS -->
+                <div class="interests">
+                    <h3 class="reveal">My Interests</h3>
+
+                    <div class="interest-icons">
+                        <span class="reveal"><i class="fas fa-music"></i> Music</span>
+                        <span class="reveal"><i class="fas fa-plane"></i> Travel</span>
+                        <span class="reveal"><i class="fas fa-camera"></i> Photography</span>
+                        <span class="reveal"><i class="fas fa-film"></i> Movies</span>
+                        <span class="reveal"><i class="fas fa-palette"></i> Design</span>
+                        <span class="reveal"><i class="fas fa-code"></i> Coding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--=========EDUCATION SECTION=========-->
+    <section id="education" class="education-section">
+        <div class="education-container">
+
+            <p class="section-label">EDUCATION</p>
+            <h2 class="education-title">My Academic Background</h2>
+
+            <div class="education-timeline">
+
+
+                <div class="edu-box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h4>Bachelor’s Degree – Computer Science</h4>
+                        <p class="edu-org">Al al-Bayt University – Jordan</p>
+                        <p class="edu-year">2020 – 2025</p>
+                    </div>
+                </div>
+
+
+                <div class="edu-box">
+                    <i class="fas fa-shield-halved"></i>
+                    <div>
+                        <h4>Cybersecurity Foundations (Self-Learning)</h4>
+                        <p class="edu-org">Explored during Graduation Project</p>
+                        <p class="edu-year">2024 – 2025</p>
+                    </div>
+                </div>
+
+
+                <div class="edu-box">
+                    <i class="fas fa-laptop-code"></i>
+                    <div>
+                        <h4>Full-Stack Web Development Training</h4>
+                        <p class="edu-org">Orange Coding School – Orange</p>
+                        <p class="edu-year">2025</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--=========PROJECT SECTION==========-->
+    <section id="projects" class="projects-section">
+
+        <div class="section-header">
+            <p class="section-label">MY WORK</p>
+            <h2 class="section-title">Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- PROJECT 1: Hack Me If You Can -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="hack.jpg" alt="Hack Me If You Can Project">
+                </div>
+
+                <div class="project-content">
+                    <h3>Hack Me If You Can – VulnScan</h3>
+                    <p>
+                        A lightweight web vulnerability scanner built using Python and Flask as part of my
+                        graduation project. It detects common security flaws such as XSS, HTML Injection,
+                        CSS Injection, and Business Logic vulnerabilities. The project also includes a custom
+                        vulnerable web app for testing and integrates CVE references from the National
+                        Vulnerability Database (NVD).
+
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>PHP</span>
+                        <span>Vulnerability Scanner</span>
+                        <span>NVD API</span>
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1STlpsMUACINb3X0kptSdfAXwt_PHWENk/view?usp=drive_link"
+                        class="project-btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 2: Warehouse Management System  -->
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="whare.jpg" alt="Warehouse Management System">
+                </div>
+
+                <div class="project-content">
+                    <h3>Warehouse Management System</h3>
+                    <p>
+                        A full-stack warehouse management system developed during my internship at MenaITech.
+                        The system handles inventory operations, product tracking, stock movements, employee roles,
+                        and dynamic reporting. Built with a clean UI and optimized database structure.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>jQuery</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <a href="https://github.com/RubaAlKhatib16/warehouse-Management-System-.git"
+                        class="project-btn">View Project</a>
+                </div>
+            </div>
+
+
+
+            <!-- PROJECT 3: Kasra – Hedera BNPL -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="kasra.png" alt="Kasra BNPL">
+                </div>
+                <div class="project-content">
+                    <h3>Kasra – Hedera BNPL Platform</h3>
+                    <p>
+                        BNPL platform built on Hedera Hashgraph for the Orange Hackathon.
+                        Includes smart contract logic, store onboarding, secure wallet transactions, and product
+                        marketplace.
+                    </p>
+                    <div class="project-tags">
+                        <span>Hedera</span>
+                        <span>Smart Contracts</span>
+                        <span>Node.js</span>
+                        <span>UI/UX</span>
+                        <span>Orange</span>
+                    </div>
+                    <a href="https://www.canva.com/design/DAG2Qfy74NI/x2kZ4Hc_zkGsC7_sbaKhUg/edit?utm_content=DAG2Qfy74NI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                        class="project-btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 4: Lana ProCare -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="lana.png" alt="Lana ProCare Website">
+                </div>
+                <div class="project-content">
+                    <h3>Lana ProCare – Skincare Brand Website</h3>
+                    <p>
+                        A luxury skincare website with premium UI design, elegant product displays, and responsive
+                        layouts.
+                        Built with HTML, CSS, JS focusing on brand identity and high-end aesthetics.
+                    </p>
+                    <div class="project-tags">
+                        <span>UI/UX</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://lanaprocare.com/" class="project-btn">View Project</a>
+                </div>
+            </div>
+            <!-- PROJECT 5: Golden Bakery UI/UX Design  -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="bakary.jpg" alt="Golden Bakery UI/UX Design">
+                </div>
+                <div class="project-content">
+                    <h3>Golden Bakery – UI/UX Design</h3>
+                    <p>
+                        A warm and modern UI/UX design for a full bakery experience including
+                        product catalog, ordering flow, and storytelling-based layout.
+                    </p>
+                    <div class="project-tags">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                        <span>Branding</span>
+                        <span>Prototyping</span>
+                    </div>
+                    <a href="https://www.figma.com/proto/g1PkqlSbvc1vJhRWAh83Eb/%D9%85%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%AE%D8%A8%D8%B2-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A?node-id=2-4&t=5KhAzczkkv7otYsd-1"
+                        class="project-btn">View Design</a>
+                </div>
+            </div>
+            <!-- PROJECT 6: Sakan UI/UX Design  -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="sakan.png" alt="Sakan UI/UX Design">
+                </div>
+
+                <div class="project-content">
+                    <h3>Sakan – Student Housing Platform</h3>
+
+                    <p>
+                        A complete UI/UX design for a modern student housing platform that makes
+                        searching and booking apartments simple and intuitive. Includes clean layouts,
+                        advanced search filters, property details, and a consistent design system suitable
+                        for real-world deployment.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                        <span>Wireframes</span>
+                        <span>Prototyping</span>
+                        <span>Orange</span>
+                    </div>
+
+                    <a href="https://www.figma.com/proto/yjmLl984NEAI5lIjZ4XAXg/Sakan?node-id=130-291&p=f&t=pln0merDP1ICl4l8-1&scaling=contain&content-scaling=fixed&page-id=0%3A1"
+                        class="project-btn">View Design</a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- ========== EXPERIENCE SECTION ========== -->
+    <section id="experience" class="experience-section">
+        <div class="exp-container">
+
+
+            <div class="exp-header">
+                <p class="section-label">EXPERIENCE</p>
+                <h2 class="exp-title">My Experience</h2>
+                <p class="exp-subtitle">
+                    A quick look at my journey in development, from internships to real-world projects.
+                </p>
+            </div>
+
+
+            <div class="exp-grid">
+
+
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <h3>Full Stack Developer Intern</h3>
+                        <span class="exp-company">Orange Coding School – Jordan</span>
+                        <span class="exp-date">Oct 2025 – Present</span>
+                    </div>
+                    <p class="exp-text">
+                        Working on full stack web applications using HTML, CSS, Bootstrap, JavaScript, PHP
+                        and MySQL. Building real-world projects, improving code quality, and collaborating
+                        within an agile environment.
+                    </p>
+                    <div class="exp-tags">
+                        <span>Full Stack</span>
+                        <span>Bootstrap</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+
+
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <h3>PHP Developer Intern</h3>
+                        <span class="exp-company">MenaITech – Internship</span>
+                        <span class="exp-date">2024</span>
+                    </div>
+                    <p class="exp-text">
+                        Developed internal tools and features using PHP and MySQL, worked with a professional
+                        development team, and gained strong experience in backend logic, debugging, and clean code.
+                    </p>
+                    <div class="exp-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>Backend</span>
+                    </div>
+                </div>
+
+
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <h3>Freelance Full Stack Developer</h3>
+                        <span class="exp-company">Remote & Personal Projects</span>
+                        <span class="exp-date">2022 – Present</span>
+                    </div>
+                    <p class="exp-text">
+                        Developing complete web solutions from front-end UI to back-end logic.
+                        Worked on several real projects such as <strong>Kasra (Hedera-based BNPL)</strong>,
+                        <strong>Lana ProCare</strong>, and multiple responsive business websites.
+                        Focused on clean code, modern UI/UX, and delivering high-quality, tailored solutions.
+                    </p>
+                    <div class="exp-tags">
+                        <span>Full Stack</span>
+                        <span>PHP / MySQL</span>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--===============Service SECTION===========-->
+    <section id="services" class="services-section">
+
+        <div class="services-header">
+            <span class="section-label">SERVICES</span>
+            <h2>What I Can Do</h2>
+            <p class="section-subtitle">
+                I provide high-quality modern solutions with clean code, elegant UI, and professional functionality.
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive, clean, and dynamic websites using modern coding standards.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Full-Stack Apps</h3>
+                <p>Developing complete systems with PHP, MySQL, JavaScript, and secure backend logic.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-pencil-ruler"></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing beautiful and intuitive interfaces with strong attention to detail.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-database"></i>
+                <h3>Database Design</h3>
+                <p>Structuring databases for performance, scalability, and smooth integrations.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--=========== Contact SECTION ===============-->
+    <section id="contact" class="contact-section">
+
+        <div class="contact-header">
+            <span class="section-label">CONTACT</span>
+            <h2>Let’s Build Something Together</h2>
+            <p class="section-subtitle">
+                If you’d like to collaborate, discuss a project, or just say hi — feel free to reach out anytime.
+            </p>
+        </div>
+
+        <div class="contact-container">
+
+            <!-- LEFT CARD -->
+            <div class="contact-card">
+
+                <div class="contact-avatar">
+                    <img src="hero.jpg" alt="Ruba Alkhatib">
+                </div>
+
+                <h2 class="contact-name">Ruba Alkhatib</h2>
+                <p class="contact-role">Full Stack Developer</p>
+
+                <div class="contact-details">
+
+                    <div class="detail-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <p class="detail-title">Email</p>
+                            <p class="detail-text">ruba.alkhatib16@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="icon-box">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <p class="detail-title">Phone</p>
+                            <p class="detail-text">+962 79 870 6042</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar"></ion-icon>
+                        </div>
+                        <div>
+                            <p class="detail-title">BirthDay</p>
+                            <p class="detail-text">Oct,16,2002</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <p class="detail-title">Location</p>
+                            <p class="detail-text">Amman, Jordan</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="contact-social">
+                    <a href="https://github.com/RubaAlKhatib16"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ruba-al-khatib-b6b38b286/"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:ruba.alkhatib16@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT SIDE  -->
+            <div class="contact-right">
+
+                <div class="map-wrapper">
+                    <iframe src="https://maps.google.com/maps?q=Amman&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        allowfullscreen loading="lazy">
+                    </iframe>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                    <textarea placeholder="Your Message"></textarea>
+
+                    <button class="send-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- LEFT: NAME & ROLE -->
+            <div class="footer-info">
+                <h3 class="footer-name">Ruba Alkhatib</h3>
+                <p class="footer-role">Full Stack Developer</p>
+            </div>
+
+            <!-- CENTER: NAV LINKS -->
+            <ul class="footer-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+
+            <div class="footer-social">
+                <a href="https://github.com/RubaAlKhatib16" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ruba-al-khatib-b6b38b286/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:ruba.alkhatib16@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Ruba Alkhatib — All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
